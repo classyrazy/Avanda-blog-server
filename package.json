@@ -38,6 +38,9 @@
     "heroku-postbuild": "npm run build",
     "start": "node ./build/app/index.js"
   },
+  "engines": { 
+    "node": "16.13.2" 
+  },
   "author": "",
   "license": "ISC"
 }
