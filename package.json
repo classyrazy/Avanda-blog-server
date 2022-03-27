@@ -34,7 +34,9 @@
     "dev": "vite",
     "build:server": "vite build --outDir dist --ssr app/index.ts",
     "build": "tsc && cp -r ./public ./build  && cp ./.env ./build",
-    "avanda": "node ./build/avanda.js "
+    "avanda": "node ./build/avanda.js ",
+    "heroku-postbuild": "npm run build",
+    "start": "node build/app/index.js"
   },
   "author": "",
   "license": "ISC"
