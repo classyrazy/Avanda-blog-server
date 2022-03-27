@@ -36,7 +36,7 @@
     "build": "tsc && cp -r ./public ./build  && cp ./.env ./build",
     "avanda": "node ./build/avanda.js ",
     "heroku-postbuild": "npm run build",
-    "start": "node build/app/index.js"
+    "start": "node ./build/app/index.js"
   },
   "author": "",
   "license": "ISC"
