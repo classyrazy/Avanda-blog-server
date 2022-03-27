@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "ES2017",
+    "moduleResolution": "node",
+    "outDir": "build",
+    "rootDir": "./",
+    "baseUrl": "./",
+  },
+  "lib": ["es2015"]
+}
